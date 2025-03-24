@@ -11,10 +11,10 @@ export const Home = () => {
           I'm a frontend developer who loves crafting clean,web applications. My goal is to build solutions that offer both execeptional performance and a delightful user experience
         </p>
         <div className="flex justify-center space-x-4">
-          <a href="#projects" className="bg-gradient-to-r from-violet-700 to-indigo-400 text-white py-3 px-6 rounded-xl font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(165, 55, 2254, 0.4)]">
+          <a href="#projects" className="bg-gradient-to-r from-violet-700 to-indigo-400 text-white py-3 px-6 rounded-xl font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(165,55,2254,0.4)]">
             View Projects
           </a>
-          <a href="#projects" className="border border-violet-500/50 text-violet-500 py-3 px-6 rounded-xl font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(165, 55, 2254, 0.4)] hover:bg-violet-500/10">
+          <a href="#projects" className="border border-violet-500/50 text-violet-500 py-3 px-6 rounded-xl font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(165,55,2254,0.4)] hover:bg-violet-500/10">
             Contac Me
           </a>
         </div>

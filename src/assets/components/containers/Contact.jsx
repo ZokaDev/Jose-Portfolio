@@ -69,7 +69,7 @@ export const Contact = () => {
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
             </div>
 
-            <button type="submit" className="w-full bg-gradient-to-r from-violet-700 to-indigo-400 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(165, 55, 2254,0.4)]">Send Message</button>
+            <button type="submit" className="w-full bg-gradient-to-r from-violet-700 to-indigo-400 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(165,55,2254,0.4)]">Send Message</button>
           </form>
         </div>
       </RevealOnScroll>

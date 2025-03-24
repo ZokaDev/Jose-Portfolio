@@ -18,7 +18,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkill.map((tech, key) =>
-                  <span key={key} className="bg-violet-500/10 text-violet-500 py-1 px-3 rounded-full text-md hover:bg-violet-500/20 hover:shadow-[0_2px_8px_rgba(165, 55, 2254,0.2)] trasition">{tech}</span>
+                  <span key={key} className="bg-violet-500/10 text-violet-500 py-1 px-3 rounded-full text-md hover:bg-violet-500/20 hover:shadow-[0_2px_8px_rgba(165,55,2254,0.2)] trasition">{tech}</span>
                 )}
               </div>
             </div>
@@ -26,7 +26,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">Backtend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkill.map((tech, key) =>
-                  <span key={key} className="bg-violet-500/10 text-violet-500 py-1 px-3 rounded-full text-md hover:bg-violet-500/20 hover:shadow-[0_2px_8px_rgba(165, 55, 2254,0.2)] trasition">{tech}</span>
+                  <span key={key} className="bg-violet-500/10 text-violet-500 py-1 px-3 rounded-full text-md hover:bg-violet-500/20 hover:shadow-[0_2px_8px_rgba(165,55,2254,0.2)] trasition">{tech}</span>
                 )}
               </div>
             </div>
